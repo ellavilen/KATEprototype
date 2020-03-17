@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">MapImplementation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btn_open_map">Open Map!</string>
+
+    <string name="search_location">Search Location!</string>
+
+
+    <string name="login_desing_name">LoginDESIGN</string>
+    <string name="etName">Username</string>
+    <string name="etPassword">Password</string>
+    <string name="btnSignIn">Log in</string>
+    <string name="username_wrong">Wrong username</string>
+    <string name="password_wrong">Wrong password</string>
+    <string name="LoginSuccess">You logged in successfully</string>
+    <string name="UsernameWrong">Wrong Username. Try again</string>
+    <string name="PasswordWrong">Wrong Password. Try again</string>
+    <string name="AllWrong">Wrong Username and Password. Try again</string>
+    <string name="LoginFailed">Failed to log in. Try again</string>
+
+    <string name="verifyText">We need to verify that it is you:</string>
+    <string name="verCode">Your code</string>
+    <string name="btnVerify">Verify</string>
+    <string name="verificationSuccess">Verification accepted</string>
+    <string name="verificationFailed">Verification failed. Try again</string>
+
+    <!--Logout strings-->
+    <string name="log_out">Log Out</string>
+    <string name="yes">Logout Successfully</string>
+    <string name="no">Logout Cancelled</string>
+
+
+    <string name="todo">sdgjisdgiajkl</string>
+
+    <string name="your_route">Your route today</string>
+    <string name="searchComp">Search Comp</string>
+
+    <string name="valuations">Valuations</string>
+    <string name="back">Back</string>
+
+    <string name="activeval">Active Valuations</string>
+    <string name="history">History</string>
+    <string name="showall">Show all</string>
+    <string name="finished">Finished</string>
+    <string name="finishedText">Your finished valuations</string>
+    <string name="declined">Declined</string>
+    <string name="declinedText">Your declined valuations</string>
+    <string name="details">View details</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--PROFILE-->
+    <string name="editProfile">Edit profile</string>
+    <string name="changePic">Change Profile Picture</string>
+    <string name="username">Username</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber">Phone</string>
+
+    <string name="username2">UserKate</string>
+    <string name="userFirstName">User</string>
+    <string name="userLastName">Kate</string>
+    <string name="userEmail">userkate@email.com</string>
+    <string name="userPhone">000 1234567</string>
+
+
+    <!--WHATEVER THESE ARE-->
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

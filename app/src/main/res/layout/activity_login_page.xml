@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="outsideOverlay"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imgKate"
+            android:layout_width="113dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/katelogo" />
+
+        <!---->
+        <!-- Edit all Fonts (Edit text, Edit text, Button)-->
+        <!---->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="211dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:backgroundTintMode="src_in"
+            android:ems="10"
+            android:hint="@string/etName"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/sf_compact_display_reqular"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textCursorDrawable="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgKate" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="212dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:fontFamily="@font/sf_compact_display_reqular"
+            android:hint="@string/etPassword"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="143dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:backgroundTint="#FF903C"
+            android:backgroundTintMode="src_in"
+            android:clickable="true"
+            android:fontFamily="@font/sf_compact_display_bold"
+            android:ems="10"
+            android:text="@string/btnSignIn"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etPassword"
+            app:layout_constraintVertical_bias="0.0"
+            android:focusable="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
